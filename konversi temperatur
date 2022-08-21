@@ -1,0 +1,27 @@
+#program celciuske satuanlain
+
+print("\nPROGRAM KONVERSI TEMPERATUR")
+
+celcius = float(input('Masukkan suhu dalam celcius :'))
+print ("suhu adalah",celcius,"Celcius")
+
+#reamur
+reamur= (4/5) * celcius
+print("suhu dalam reamur adalah",reamur,"Reamur")
+
+#fahrenheit
+fahrenheit=((9/5)* celcius) +32
+print("suhu dalam fahrenheit adalah",fahrenheit,"Fahrenheit")
+
+#kelvin
+kelvin = celcius +273
+print("suhu dalam kelvin adalah",kelvin,"Kelvin")
+
+#fahrenheit ke kelvin
+fahrenheit = float(input('Masukkan suhu dalam fahrenheit :'))
+print ("suhu adalah",fahrenheit,"Fahrenheit")
+
+#fahrenheit
+fahrenheit= ((5/9)-32) * celcius
+celcius= 273 + celcius
+print("suhu dalam kelvin adalah",kelvin,"Kelvin")
